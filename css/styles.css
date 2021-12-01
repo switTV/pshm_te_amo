@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f5f3f4;
+}
+.container-texto h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.img-corazon1{
+    width: 140px;
+}
+.img-stream{
+    width: 160px;
+    margin: 20px;
+    border-radius: 20pc;
+
+}
+.img-corazon1 {
+    animation: vuelta 5s infinite;
+}
+.container-principal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    width: 100px;
+    margin: 10px;
+    background-color:#202020;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    transition: 0.1s background-color;
+
+}
+input:hover{
+    background-color:#595959;
+
+
+}
+@keyframes vuelta{
+    0%{
+        transform: rotate(360deg);
+    }
+
+}
+.container-texto{
+}
